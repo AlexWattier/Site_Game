@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../Style/Styles_NavBar.css">
+    <link rel="stylesheet" href="../../Style/Styles_Contact.css">
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <header>
+        <img class="imagelogo" src="../Image/logo.jpg" alt="logo">
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <a class="navbar-brand" href="../index2.html">49707</a>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link " href="jeu.html">Jeux</a></li>
+                    <li class="nav-item"><a class="nav-link " href="https://discord.com/">Discord</a></li>
+                    <li class="nav-item"><a class="nav-link " href="Contact.html">Contact</a></li>
+                </ul>
+                <form class="form-inline" action="he.html">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </nav>
+        </div>
+    </header>
+    <br>
+
+    <form id="contact" action="../index2.html" method="POST">
+        <label>Adresse mail:<input type="text" name="mail" size="20"></label><br>
+        <label>Votre pseudo:<input type="nom" name="login" /></label><br>
+        <label>Votre nom:<input type="nom" name="nom" /></label><br>
+        <label>Votre prénom:<input type="nom" name="prenom" /></label><br>
+        <label>Raison du contact
+            <select name="Raison du contact">
+                <option>probleme d affichage</option>
+                <option>probleme de lien</option>
+                <option>jeux manquant</option>
+                <option>modifier une commande</option>
+                <option>autre</option>
+            </select>
+        </label><br>
+        <label>formulez votre demande<br>
+            <textarea name="comment" id="input7" class="inputTextArea" rows="8" cols="50"></textarea>
+        </label><br>
+        <input type="submit" /><br>
+    </form>
+
+    <footer>49707 Wattier Alexandre</footer>
+</body>
+
+</html>

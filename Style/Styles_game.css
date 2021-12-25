@@ -1,0 +1,42 @@
+.game{
+    background-color:  rgb(56, 56, 56);
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.name_game{
+    padding: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 29px;
+    border-radius: 49%;
+}
+.score_game{
+    text-align: right;
+    padding: 5px;
+
+   
+    font-size: 29px;
+
+}
+.img_jeu{
+    padding-left: 10% ;
+    min-height: 100px;
+    max-height: 600px;
+    min-width:  100px;
+    max-width:  1000px;
+    height: fit-content;width: fit-content;
+}
+.description{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.game_info{
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+.name_game h1{
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6bd6e63a-662f-4edd-974c-b2a0de620624" name="projet-web" url="http://localhost:8080/WEBR4">
+        <fileTransfer mountedRoot="C:\xampp\htdocs\WEBR4" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+    <groups>
+      <group>
+        <name>localhost</name>
+        <servers>
+          <name value="projet-web" />
+        </servers>
+      </group>
+    </groups>
+  </component>
+</project>

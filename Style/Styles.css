@@ -1,0 +1,106 @@
+.imagelogo{
+    width:100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: rgb(128, 128, 128);
+    margin: 0;
+    background: #ccc;
+    font-family: helvetica, arial, serif;
+    font-size: 13px;
+}
+
+footer {
+    background: black;
+    position: fixed;
+    color: white;
+    margin-top: 20px;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    text-align: center;
+}
+
+
+#listAllGame article{
+    display: flex;
+    margin-bottom: 10px;
+}
+#listAllGame article > div:nth-child(2){
+    padding-left: 10px;
+}
+.image_games{
+    object-position: center;
+    object-fit: cover;
+    width: 150px;
+    height: 204px;
+}
+ .img_cover{
+     display: flex;
+     object-position: center;
+     object-fit: cover;
+     width: 250px;
+ }
+
+
+#contact{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10%;
+}
+
+#resultsearch {
+    position: absolute;
+    width: 100%;
+    max-width: 870px;
+    cursor: pointer;
+    overflow-y: auto;
+    max-height: 400px;
+    box-sizing: border-box;
+    z-index: 1001;
+}
+.miniature{
+    display: flex;
+    object-position: center;
+    object-fit: cover;
+    width: 50px;
+}
+
+
+.link-class:hover {
+    background-color: #f1f1f1;
+}
+
+.list-group-item{
+    display: flex;
+}
+.list-group-item > div:nth-child(2){
+    padding-left: 10px;
+}
+
+
+#listSimilar{
+    width: 100%;
+    border-radius: .5em;
+    padding: 10px;
+    background-color: rgb(56, 56, 56);
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+}
+#datesortie{
+    text-align: right;
+}
+
+#navig{
+    margin-bottom: 15px;
+}
+.gridPaneRigth{
+
+
+}

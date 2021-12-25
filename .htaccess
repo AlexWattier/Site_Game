@@ -1,0 +1,5 @@
+# Réécrit une URL de type xxx/yyy/zzz
+# en index.php?action=yyy&id=zzz
+RewriteEngine on
+RewriteRule ^([a-zA-Z]*)/?([a-zA-Z0-9]*)?/?$ index.php?action=$1&id=$2 [NC,L,QSA]
+
